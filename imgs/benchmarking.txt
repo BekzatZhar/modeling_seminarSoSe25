@@ -1,0 +1,28 @@
+BENCHMARK (logged):
+naive:
+TIME 11m 11.4s
+Value before optimizing:  423.8829870356511
+         Current function value: 0.000022
+         Iterations: 1000
+         Function evaluations: 1423
+         Gradient evaluations: 1423
+  message: Maximum number of iterations has been exceeded.
+  success: False
+   status: 1
+      fun: 2.201369854219977e-05
+        x: [ 1.665e-02  2.114e-02 ...  9.908e-01  9.840e-01]
+      nit: 1000
+
+nuFFT: (eps=1e-6, num_threads=8)
+TIME: 6m 7.9s
+Value before optimizing:  510.7102965525561
+         Current function value: 0.000004
+         Iterations: 1000
+         Function evaluations: 1005
+         Gradient evaluations: 1005
+  message: Maximum number of iterations has been exceeded.
+  success: False
+   status: 1
+      fun: 4.292668542502225e-06
+        x: [-3.098e+00 -3.017e+00 ...  3.272e+00  3.032e+00]
+      nit: 1000
