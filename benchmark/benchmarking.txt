@@ -40,3 +40,6 @@ Value before optimizing:  423.8829870356642
       fun: 5.552360625142888e-05
         x: [ 1.638e-02  2.666e-02 ...  9.854e-01  9.830e-01]
       nit: 1000
+
+	-> num_threads=1 : TIME: 6m 10.5s
+	-> num_threads=4 : TIME 6m 26.3s
