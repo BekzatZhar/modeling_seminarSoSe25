@@ -1,2 +1,7 @@
 N, M, D, H, K_cutoff, alpha
 1024,1848,5.2335322129306715e-05,0.0001,138.23007675795088,2.0
+
+bump:
+A = 1.5                  # Height of the hill
+x0 = 0.9                 # Center of the hill before cutoff
+sigma = 0.05             # Width of the hill
