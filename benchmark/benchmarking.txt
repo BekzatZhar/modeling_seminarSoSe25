@@ -1,45 +1,44 @@
 BENCHMARK (logged):
 naive:
-TIME 11m 11.4s
-Value before optimizing:  423.8829870356511
-         Current function value: 0.000022
+TIME 11m 24.2s
+Value before optimizing:  4.3194847770186335
+         Current function value: 0.000257
          Iterations: 1000
-         Function evaluations: 1423
-         Gradient evaluations: 1423
+         Function evaluations: 1519
+         Gradient evaluations: 1519
   message: Maximum number of iterations has been exceeded.
   success: False
    status: 1
-      fun: 2.201369854219977e-05
-        x: [ 1.665e-02  2.114e-02 ...  9.908e-01  9.840e-01]
+      fun: 0.0002567168475781961
+        x: [ 3.745e-03  3.805e-02 ...  1.003e+00  9.916e-01]
       nit: 1000
+      jac: [-5.168e-04 -1.933e-04 ...  5.532e-04 -5.299e-04]
+ hess_inv: [[ 5.826e-01  8.750e-03 ... -2.747e-02  2.927e-03]
+            [ 8.750e-03  5.295e-01 ... -1.080e-02 -9.211e-02]
+            ...
+            [-2.747e-02 -1.080e-02 ...  5.889e-01  3.281e-02]
+            [ 2.927e-03 -9.211e-02 ...  3.281e-02  6.107e-01]]
+     nfev: 1519
+     njev: 1519
 
-nuFFT: (eps=1e-6, num_threads=8)
-TIME: 6m 7.9s
-Value before optimizing:  510.7102965525561
-         Current function value: 0.000004
-         Iterations: 1000
-         Function evaluations: 1005
-         Gradient evaluations: 1005
-  message: Maximum number of iterations has been exceeded.
-  success: False
-   status: 1
-      fun: 4.292668542502225e-06
-        x: [-3.098e+00 -3.017e+00 ...  3.272e+00  3.032e+00]
-      nit: 1000
-
-nuFFT Type3: (eps=1e-12, eps=1e-6, num_threads=8)
-TIME: 6m 32.4s
-Value before optimizing:  423.8829870356642
-         Current function value: 0.000056
+nuFFT: (eps=1e-12, eps=1e-6, num_threads=1)
+TIME: 6m 47.6s
+Value before optimizing:  4.319484777017713
+         Current function value: 0.000301
          Iterations: 1000
          Function evaluations: 1004
          Gradient evaluations: 1004
   message: Maximum number of iterations has been exceeded.
   success: False
    status: 1
-      fun: 5.552360625142888e-05
-        x: [ 1.638e-02  2.666e-02 ...  9.854e-01  9.830e-01]
+      fun: 0.00030084017783351693
+        x: [ 1.530e-02  3.405e-02 ...  1.005e+00  9.991e-01]
       nit: 1000
-
-	-> num_threads=1 : TIME: 6m 10.5s
-	-> num_threads=4 : TIME 6m 26.3s
+      jac: [ 6.875e-04 -2.459e-04 ... -1.028e-03 -3.240e-04]
+ hess_inv: [[ 5.654e-01 -4.638e-03 ... -4.923e-03 -3.963e-02]
+            [-4.638e-03  5.523e-01 ... -4.211e-02 -5.255e-02]
+            ...
+            [-4.923e-03 -4.211e-02 ...  5.968e-01  4.940e-03]
+            [-3.963e-02 -5.255e-02 ...  4.940e-03  5.567e-01]]
+     nfev: 1004
+     njev: 1004
