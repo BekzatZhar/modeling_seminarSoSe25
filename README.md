@@ -7,6 +7,7 @@ You can read a point pattern by simply using numpy.load. The shape will be (N, 2
 The parameters used for generating the point pattern are in parms.csv.
 
 Explanation of files:
+
 hu_nnufft_type3.ipynb
 - the main script to be used to generate point patterns using nufft
 
